@@ -8,11 +8,7 @@ const app = express()
 app.use(cors())
 app.use(bodyParser.json())
 
-app.get('/' ,  (req,res) => {
-    res.json({
-        message : "app is running"
-    })
-})
+
 
 app.post('/split-payments/compute' , (req, res) => {
     const request = req.body
