@@ -73,6 +73,6 @@ app.post('/split-payments/compute' , (req, res) => {
 
 
 
-app.listen(5000, () => {
+app.listen(3000, () => {
     console.log("app is running on port 5000")
 })
